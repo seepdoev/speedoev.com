@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speedo Electric Scooters</title>
+  <style>
+    body { margin:0; font-family: 'Montserrat', Arial, sans-serif; background: #141414; color: #fff; }
+    header { background: #212121; padding: 2rem 0; text-align: center; }
+    nav { background: #181818; padding: 1rem 0; text-align: center; }
+    nav a { color: #fff; margin: 0 1.5rem; text-decoration: none; font-weight: 600; }
+    .hero { padding: 4rem 0; text-align: center; background: linear-gradient(120deg, #222 40%, #444 100%); }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; color: #2eb872; }
+    .hero p { font-size: 1.4rem; margin-bottom: 2rem; }
+    .cta { padding: 1rem 2rem; border-radius: 5px; background: #2eb872; color: #fff; font-size: 1.2rem; border: none; }
+    .features, .products { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 3rem 0; }
+    .feature, .product { background: #222; padding: 2rem; border-radius: 10px; width: 300px; }
+    .footer { background: #181818; padding: 1.5rem 0; text-align: center; font-size: 1rem; color: #888; }
+    @media (max-width:900px) {
+      .features, .products { flex-direction: column; align-items: center; }
+      .feature, .product { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Speedo</h1>
+    <p>Ride the Future. Today.</p>
+  </header>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h1>Fast. Smart. Green.</h1>
+    <p>The next generation of electric scooters—technology and style for everyone.</p>
+    <button class="cta">Book a Test Ride</button>
+  </section>
+  <section id="features" class="features">
+    <div class="feature">
+      <h2>Eco-Friendly</h2>
+      <p>Zero emissions for a greener city.</p>
+    </div>
+    <div class="feature">
+      <h2>Smart Tech</h2>
+      <p>Bluetooth, GPS & mobile app integration.</p>
+    </div>
+    <div class="feature">
+      <h2>Powerful Performance</h2>
+      <p>High-capacity batteries for longer rides.</p>
+    </div>
+  </section>
+  <section id="products" class="products">
+    <div class="product">
+      <h3>Speedo X1</h3>
+      <p>Range: 60km<br>Top Speed: 45km/h</p>
+      <button class="cta">View Details</button>
+    </div>
+    <div class="product">
+      <h3>Speedo Pro</h3>
+      <p>Range: 90km<br>Top Speed: 60km/h</p>
+      <button class="cta">View Details</button>
+    </div>
+  </section>
+  <section id="contact" class="footer">
+    Contact us: hi@speedo.com | 1-800-000-000
+  </section>
+  <section class="footer">
+    &copy; 2025 Speedo. All Rights Reserved.
+  </section>
+</body>
+</html>
